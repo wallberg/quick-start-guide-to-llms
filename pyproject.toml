@@ -1,0 +1,32 @@
+[project]
+name = "quick-start-guide-to-llms"
+version = "0.1.0"
+description = "Cloned from https://github.com/sinanuozdemir/quick-start-guide-to-llms"
+readme = "README.md"
+authors = [
+    { name = "Ben Wallberg", email = "wallberg@umd.edu" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=2.6.0",
+    "datasets>=5.1.0",
+    "ipywidgets>=8.1.9",
+    "jupyter>=1.1.1",
+    "numpy>=2.5.4",
+    "openai>=3.46.0",
+    "pandas>=3.1.1",
+    "pinecone>=10.3.0",
+    "python-dotenv>=1.2.4",
+    "sentence-transformers>=6.2.0",
+    "streamlit>=1.67.0",
+    "tiktoken>=0.14.0",
+    "torch>=2.15.0",
+    "transformers>=5.22.2",
+]
+
+[project.scripts]
+quick-start-guide-to-llms = "quick_start_guide_to_llms:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
