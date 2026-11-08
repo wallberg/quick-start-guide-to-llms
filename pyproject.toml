@@ -17,6 +17,7 @@ dependencies = [
     "pandas>=3.1.1",
     "pinecone>=10.3.0",
     "python-dotenv>=1.2.4",
+    "ruff>=0.17.4",
     "sentence-transformers>=6.2.0",
     "streamlit>=1.67.0",
     "tiktoken>=0.14.0",
